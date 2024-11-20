@@ -109,8 +109,9 @@ namespace SupanthaPaul
 				}
 				else
 				{
-					if(canMove && !m_wallGrabbing)
+					if(canMove && !m_wallGrabbing) {
 						m_rb.velocity = new Vector2(moveInput * speed, m_rb.velocity.y);
+					}
 					else if(!canMove)
 						m_rb.velocity = new Vector2(0f, m_rb.velocity.y);
 				}
