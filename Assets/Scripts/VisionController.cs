@@ -17,7 +17,6 @@ public class VisionController : MonoBehaviour
     void FixedUpdate()
     {
         Collider2D[] visionObjects = Physics2D.OverlapCircleAll(new Vector2(transform.position.x, transform.position.y), transform.lossyScale.x / 2, visionLayer);
-        Debug.Log(visionObjects.Length);
         foreach (Collider2D g in visionObjects)
         {
             g.transform.parent.GetComponent<HoleController>().Activate();
