@@ -359,6 +359,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2644038771920387393, guid: 87bf8c1bb82c18141b66b97e913ccc1e,
+        type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2644038771920387394, guid: 87bf8c1bb82c18141b66b97e913ccc1e,
         type: 3}
       propertyPath: m_Name
@@ -54727,17 +54732,17 @@ PrefabInstance:
     - target: {fileID: 1126351324689735459, guid: 0a39b8bae407d964d97ec56d249148e0,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 20
+      value: 20.021
       objectReference: {fileID: 0}
     - target: {fileID: 1126351324689735459, guid: 0a39b8bae407d964d97ec56d249148e0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -10
+      value: -9.96
       objectReference: {fileID: 0}
     - target: {fileID: 1126351324689735459, guid: 0a39b8bae407d964d97ec56d249148e0,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.38495693
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1126351324689735459, guid: 0a39b8bae407d964d97ec56d249148e0,
         type: 3}
