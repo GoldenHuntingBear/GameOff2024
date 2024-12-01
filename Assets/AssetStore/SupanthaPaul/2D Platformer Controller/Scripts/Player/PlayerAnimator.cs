@@ -39,10 +39,11 @@ namespace SupanthaPaul
 				m_anim.SetBool(IsJumping, false);
 			}
 
-			if(!m_controller.isGrounded && m_controller.actuallyWallGrabbing)
+			if (!m_controller.isGrounded && m_controller.actuallyWallGrabbing)
 			{
 				m_anim.SetBool(WallGrabbing, true);
-			} else
+			}
+			else
 			{
 				m_anim.SetBool(WallGrabbing, false);
 			}
